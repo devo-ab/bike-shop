@@ -1,6 +1,6 @@
 # 🚴‍♂️ Bike Shop – Responsive Bike Selling Landing Page
 
-**Bike Shop** is a fully responsive landing page designed for showcasing and selling bikes. Built using **HTML** and **Tailwind CSS**, it provides a clean, modern interface across all devices. The site features a dynamic slider, product highlights, customer reviews, FAQs, and a strong call-to-action — making it ideal for any bike selling agency.
+**Bike Shop** is a fully responsive landing page designed for showcasing and selling bikes. Built using **HTML** and **Tailwind CSS** and **DaisyUI**, it provides a clean, modern interface across all devices. The site features a dynamic slider, product highlights, customer reviews, FAQs, and a strong call-to-action — making it ideal for any bike selling agency.
 
 [🔗 Live Demo](https://devo-ab.github.io/bike-shop)
 
@@ -23,6 +23,7 @@
 
 - **HTML5**
 - **Tailwind CSS**
+- **DaisyUI**
 - **Custom Assets (images, icons, slider)**
 
 ---
