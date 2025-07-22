@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bike Shop</title>
-  <link rel="shortcut icon" href="./logo/bike-shop logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/logo/bike-shop logo.png" type="image/x-icon">
 
   <!-- tailwind and daisyUI cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -94,7 +94,7 @@
           </div>
 
           <div class="flex-1">
-            <img src="./slider/bike3.png" class="w-[440px]" />
+            <img src="./assets/slider/bike3.png" class="w-[440px]" />
           </div>
         </div>
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -115,7 +115,7 @@
           </div>
 
           <div class="flex-1">
-            <img src="./slider/bike1.png" class="w-[440px]" />
+            <img src="./assets/slider/bike1.png" class="w-[440px]" />
           </div>
         </div>
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -136,7 +136,7 @@
           </div>
 
           <div class="flex-1">
-            <img src="./slider/bike2.png" class="w-[440px]" />
+            <img src="./assets/slider/bike2.png" class="w-[440px]" />
           </div>
         </div>
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -157,7 +157,7 @@
           </div>
 
           <div class="flex-1">
-            <img src="./slider/bike4.png" class="w-[440px]" />
+            <img src="./assets/slider/bike4.png" class="w-[440px]" />
           </div>
         </div>
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -171,7 +171,19 @@
 
   <main class="md:container md:mx-auto">
     <!-- featured_bike_start -->
-    <section>
+    <section class="mt-12 md:mt-20 lg:mt-28">
+      <h3 class="text-5xl text-[#0A0826] font-semibold text-center font-poppins">Fetured Bikes In This Year</h3>
+
+      <p class="text-[#E76F51] text-center mt-1 font-semibold">Best bike collection</p>
+
+      <p class="text-[#E76F51] text-center -mt-2 font-semibold">--------</p>
+
+      <div class="flex flex-col md:flex-row gap-5 mt-10 justify-center">
+        <img class="filter grayscale" src="./assets/images/feature-bike.png" alt="">
+        <img  src="./assets/images/feature-bike.png" alt="">
+        <img class="filter grayscale" src="./assets/images/feature-bike.png" alt="">
+      </div>
+
     </section>
     <!-- featured_news_end -->
 
@@ -181,7 +193,7 @@
       <div class="mt-12 md:mt-16 lg:mt-20 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- first-card -->
         <div class="card  bg-base-100 shadow-xl">
-          <figure><img src="./images/latest1.png" alt="Shoes" /></figure>
+          <figure><img src="./assets/images/latest1.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title text-3xl font-semibold font-poppins leading-10">Ducati XDIAVEL S-73</h2>
             <p class="text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
@@ -194,7 +206,7 @@
 
         <!-- second-card -->
         <div class="card mt-4 md:mt-0 lg:mt-0 bg-base-100 shadow-xl">
-          <figure><img src="./images/latest2.png" alt="Shoes" /></figure>
+          <figure><img src="./assets/images/latest2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title text-3xl font-semibold font-poppins leading-10">Motorcycles & Scooters</h2>
             <p class="text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
@@ -207,7 +219,7 @@
 
         <!-- third-card -->
         <div class="card mt-4 md:mt-0 lg:mt-0  bg-base-100 shadow-xl">
-          <figure><img src="./images/latest3.png" alt="Shoes" /></figure>
+          <figure><img src="./assets/images/latest3.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title text-3xl font-semibold font-poppins leading-10">2021 Honda CBR500R</h2>
             <p class="text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
@@ -229,7 +241,7 @@
       <div class="mt-12 grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- first_review -->
         <div class="card card-compact p-9 bg-base-100 shadow-xl border border-[#DEDEDE]">
-          <figure><img class="w-36" src="./images/user-1.png" alt="Shoes" /></figure>
+          <figure><img class="w-36" src="./assets/images/user-1.png" alt="Shoes" /></figure>
           <div class="card-body">
             <p class="text-center text-[#6C6C6C] leading-6">Slate helps you see how many more days you need to work to
               reach your financial goal for the month and year.</p>
@@ -251,7 +263,7 @@
 
         <!-- second_review -->
         <div class="card card-compact p-9 bg-base-100 shadow-xl border border-[#DEDEDE]">
-          <figure><img class="w-36" src="./images/user-2.png" alt="Shoes" /></figure>
+          <figure><img class="w-36" src="./assets/images/user-2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <p class="text-center text-[#6C6C6C] leading-6">Slate helps you see how many more days you need to work to
               reach your financial goal for the month and year.</p>
@@ -273,7 +285,7 @@
 
         <!-- third_review -->
         <div class="card card-compact p-9 bg-base-100 shadow-xl border border-[#DEDEDE]">
-          <figure><img class="w-36" src="./images/user-3.png" alt="Shoes" /></figure>
+          <figure><img class="w-36" src="./assets/images/user-3.png" alt="Shoes" /></figure>
           <div class="card-body">
             <p class="text-center text-[#6C6C6C] leading-6">Slate helps you see how many more days you need to work to
               reach your financial goal for the month and year.</p>
@@ -303,7 +315,7 @@
 
       <div class="hero mt-12">
         <div class="hero-content flex-col lg:gap-24 lg:flex-row">
-          <img src="./logo/faq.png" class="w-1/2 lg:max-w-sm rounded-lg mt-5 md:mt-0 lg:mt-0" />
+          <img src="./assets/logo/faq.png" class="w-1/2 lg:max-w-sm rounded-lg mt-5 md:mt-0 lg:mt-0" />
 
           <div>
             <!-- first_question -->
@@ -360,8 +372,9 @@
     </section>
     <!-- FAQ_end -->
   </main>
+
   <!-- footer_start -->
-  <footer class="footer p-10 bg-[#0B0D17] justify-around  mt-4 md:mt-24 lg:mt-28">
+  <footer class="footer p-10 bg-[#0B0D17] md:justify-around  mt-4 md:mt-24 lg:mt-28">
     <aside>
       <div class="text-[#FFF] flex gap-5 leading-7">
         <p>Download Now</p>
@@ -381,8 +394,8 @@
     <nav>
       <header class="footer-title text-[#D9DBE1]">Get the App</header>
       <div class="grid grid-flow-row gap-3">
-        <a><img class="w-36" src="./logo/android.png" alt=""></a>
-        <a><img class="w-36" src="./logo/ios.png" alt=""></a>
+        <a><img class="w-36" src="./assets/logo/android.png" alt=""></a>
+        <a><img class="w-36" src="./assets/logo/ios.png" alt=""></a>
       </div>
     </nav>
   </footer>
